@@ -1,0 +1,7 @@
+site_name: FlexiBLE
+site_url: https://blainerothrock.com
+nav:
+    - Home: index.md
+    - Getting Started: getting_started.md
+    - Change Log: changelog.md
+theme: material
