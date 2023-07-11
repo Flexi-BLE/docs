@@ -1,4 +1,4 @@
-## High-Level System Overview
+# System Overview
 This video explains a non-technical high-level system concepts of FlexiBLE.
 
 [//]: # (TODO: add high-level system overview video)

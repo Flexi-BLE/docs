@@ -11,5 +11,3 @@
 ## Contributors
 
 [//]: # ()
-
-# How to Contribute

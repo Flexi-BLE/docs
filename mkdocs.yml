@@ -1,7 +1,36 @@
+
+
 site_name: FlexiBLE
+site_url:
+site_author: Blaine Rothrock
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+copyright: Copyright &copy; 2023 Blaine Rothrock
+
+#repo_name: squidfunk/mkdocs-material
+#repo_url: https://github.com/squidfunk/mkdocs-material
 
 nav:
-  - Home: index.md 
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - System:
+      - Overview: system/index.md
+      - Interaction Model: system/interaction-model.md
+      - Interface Library: system/interface-library.md
+      - Database: system/database.md
+      - Workbench:
+          - Overview: system/workbench/index.md
+      - Client Applications:
+            - Overview: system/client-applications/index.md
+            - iOS: system/client-applications/ios-client.md
+  - Use Cases: use-cases.md
+  - Motivation: motivation.md
+  - Contributing:
+      - Team: contributing/team.md
+      - Code of Conduct: contributing/code-of-conduct.md
+      - Contributing Guide: contributing/guide.md
+  - FAQ: faq.md
 
 markdown_extensions:
   - attr_list
@@ -14,3 +43,27 @@ markdown_extensions:
 
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+#    - navigation.footer
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono

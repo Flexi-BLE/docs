@@ -1,20 +1,26 @@
 # FlexiBLE Use-Cases
 
+## Education
+
+### Basic Embedded System & Sensor Exploration
+
+[//]: # (TODO: populate Basic Embedded System & Sensor Exploration)
+
 ## Wearables
 ### Rapid Prototyping Wearable Health Devices
 
-[//]: # (TODO: populate)
+[//]: # (TODO: populate Rapid Prototyping Wearable Health Devices)
 
 ### Health metric development
 
-[//]: # (TODO: populate)
+[//]: # (TODO: populate Health metric development)
 
 
 ## Environmental Health Sensing
-### Local sensor configuration
+### Local Sensor Configuration
 
-[//]: # (TODO: populate)
+[//]: # (TODO: populate Environmental Health Sensing)
 
 ### Localized Local Data Collection
 
-[//]: # (TODO: populate)
+[//]: # (TODO: populate Localized Local Data Collection)
