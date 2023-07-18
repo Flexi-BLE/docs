@@ -26,6 +26,9 @@ nav:
             - iOS: system/client-applications/ios-client.md
   - Use Cases: use-cases.md
   - Motivation: motivation.md
+  - Learn:
+      - Home: learn/index.md
+      - Bluetooth: learn/ble.md
   - Contributing:
       - Team: contributing/team.md
       - Code of Conduct: contributing/code-of-conduct.md
